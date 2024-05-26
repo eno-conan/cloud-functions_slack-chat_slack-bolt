@@ -68,3 +68,8 @@ const MAIN_MODAL = {
         }
     ]
 }
+
+const SPREADSHEET_ID = PropertiesService.getScriptProperties().getProperty("SPREADSHEET_ID")
+const APP_ID = PropertiesService.getScriptProperties().getProperty("APP_ID")
+const TABLE_NAME = PropertiesService.getScriptProperties().getProperty("TABLE_NAME")
+const ACCESS_KEY = PropertiesService.getScriptProperties().getProperty("ACCESS_KEY")
